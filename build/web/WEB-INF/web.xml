@@ -1,0 +1,12 @@
+<web-app>
+	<!-- Servlets -->
+  <servlet>
+    <servlet-name>Password</servlet-name>
+    <servlet-class>com.novell.password.servlet.PasswordServlet</servlet-class>
+  </servlet>
+  <!-- Servlet mappings -->
+  <servlet-mapping>
+    <servlet-name>Password</servlet-name>
+    <url-pattern>/doPwd</url-pattern>
+  </servlet-mapping>
+</web-app>
